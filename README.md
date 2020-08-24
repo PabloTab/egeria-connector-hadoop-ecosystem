@@ -5,6 +5,16 @@
 
 ![Egeria Logo](assets/img/ODPi_Egeria_Logo_color.png)
 
+# Personal Experience - Data Governance
+
+I worked on this project as a POC (Proof of Concept), to test the interaction between Egeria and Apache Atlas to retrieve the metadata (description of data; table columns, lineage and much more) from the Hadoop cluster (Hortonworks).
+
+The test was proved to be successful, the interaction between both tools worked without any complications. Both solutions have worked together and have very similar functionalities, however Egeria provides a wide variety of functionalities for Data Governance and has a very interesting/ambitious roadmap.
+
+Both tools use Kafka to communicate with each other. Egeria takes advantage of Kafka and proposes a very interesting concept to use it for Data Governance.
+
+Stack: Egeria (Open Source), RedHat server 7, JVM, Kafka, Apache Atlas, REST API, Hadoop, Hortonworks
+
 # Egeria - Open Metadata and Governance
 
 Egeria provides the Apache 2.0 licensed open metadata and governance type system, frameworks, APIs, event payloads and interchange protocols to enable tools, engines and platforms to exchange metadata in order to get the best value from data whilst ensuring it is properly governed.
@@ -33,17 +43,6 @@ The Apache Atlas Repository Connector works through a combination of the followi
 - Apache Atlas's REST API, itself abstracted through the Apache Atlas Java Client
 - Apache Atlas's embedded Apache Kafka event bus
     - specifically the `ATLAS_ENTITIES` topic
-
-
-# Personal Experience - Data Governance
-
-I worked on this project as a POC (Proof of Concept), to test the interaction between Egeria and Apache Atlas to retrieve the metadata (description of data; table columns, lineage and much more) from the Hadoop cluster (Hortonworks).
-
-The test was proved to be successful, the interaction between both tools worked without any complications. Both solutions have worked together and have very similar functionalities, however Egeria provides a wide variety of functionalities for Data Governance and has a very interesting/ambitious roadmap.
-
-Both tools use Kafka to communicate with each other. Egeria takes advantage of Kafka and proposes a very interesting concept to use it for Data Governance.
-
-Stack: Egeria (Open Source), RedHat server 7, JVM, Kafka, Apache Atlas, REST API, Hadoop, Hortonworks
 
 ----
 License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/),
