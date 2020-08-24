@@ -7,7 +7,7 @@
 
 # Personal Experience - Data Governance
 
-I worked on this project as a POC (Proof of Concept), to test the interaction between Egeria and Apache Atlas to retrieve the metadata (description of data; table columns, lineage and much more) from the Hadoop cluster (Hortonworks).
+I worked on this project as a POC (Proof of Concept), to use Egeria and test the interaction with Apache Atlas to retrieve the metadata (description of data; table columns, lineage and much more) from the Hadoop cluster (Hortonworks).
 
 The test was proved to be successful, the interaction between both tools worked without any complications. Both solutions have worked together and have very similar functionalities, however Egeria provides a wide variety of functionalities for Data Governance and has a very interesting/ambitious roadmap.
 
